@@ -2,10 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.idea/
+.coveragerc
 # C extensions
 *.so
-
+app/__init__.py
+tests/__init__.py
 # Distribution / packaging
 .Python
 build/
@@ -36,7 +38,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit tests / coverage reports
 htmlcov/
 .tox/
 .nox/
